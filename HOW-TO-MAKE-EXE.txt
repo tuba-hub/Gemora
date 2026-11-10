@@ -1,0 +1,23 @@
+HOW TO MAKE Gemora.exe  (done once, on a Windows computer)
+==========================================================
+You need: Launch4j (free) from https://launch4j.sourceforge.net  and Java 11 or newer.
+
+1. Open Launch4j.
+2. File -> Open (folder icon) -> choose  gemora-launch4j.xml  from this folder.
+3. Click the gear icon (Build wrapper).
+4. Gemora.exe is made in THIS folder, next to gemora.jar.
+5. Double-click Gemora.exe: a black window opens (the server) and the browser opens http://localhost:8080/
+   Password: admin123.   Close the black window to stop.
+
+If the XML file does not open, fill Launch4j by hand:
+   Basic tab: Output file = Gemora.exe | Jar = gemora.jar | tick "Don't wrap the jar"
+              Header type = Console | Change dir = .
+   JRE tab:   Min JRE version = 11
+   (save the exe next to gemora.jar)
+
+KEEP TOGETHER in one folder: Gemora.exe, gemora.jar, lib, webapp, data.
+Send / submit the whole folder as a zip, not only Gemora.exe.
+The other computer needs Java 11 or newer.
+
+If you change Java code: run build-jar.bat (needs a JDK) to make a new gemora.jar, then use the exe again
+(the exe itself does not need to be made again). Changing pictures, pages (webapp) or data needs no new jar.

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Main-Class: com.jewellery.Main
+Class-Path: lib/eclipse-jdt-core.jar lib/taglibs-standard-impl.jar lib
+ /taglibs-standard-spec.jar lib/tomcat9-annotations-api.jar lib/tomcat
+ 9-api.jar lib/tomcat9-catalina.jar lib/tomcat9-coyote.jar lib/tomcat9
+ -el-api.jar lib/tomcat9-jasper-el.jar lib/tomcat9-jasper.jar lib/tomc
+ at9-jaspic-api.jar lib/tomcat9-jni.jar lib/tomcat9-jsp-api.jar lib/to
+ mcat9-juli.jar lib/tomcat9-servlet-api.jar lib/tomcat9-util-scan.jar 
+ lib/tomcat9-util.jar
